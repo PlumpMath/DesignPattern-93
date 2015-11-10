@@ -1,0 +1,7 @@
+package com.lu;
+
+public class FactoryPatternDemo {
+	public static void main(String[] args) {
+
+	}
+}
