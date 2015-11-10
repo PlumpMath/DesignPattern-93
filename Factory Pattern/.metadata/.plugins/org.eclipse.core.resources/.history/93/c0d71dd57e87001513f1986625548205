@@ -1,0 +1,12 @@
+package com.lu;
+
+public class AbstractFactoryPatternDemo {
+	public static void main(String[] args) {
+		
+		AbstractFactory factory1= FactoryProducer.getAbstractFactory("shape");
+		AbstractFactory factory2= FactoryProducer.getAbstractFactory("color");
+		
+
+	}
+
+}
