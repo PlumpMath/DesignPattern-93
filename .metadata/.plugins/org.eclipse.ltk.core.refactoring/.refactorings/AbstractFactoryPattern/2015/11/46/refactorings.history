@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;AbstractFactoryPattern/src/com/lu/ColorFactory2.java&apos; to &apos;ColorFactory.java&apos;" description="Rename resource &apos;ColorFactory2.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/lu/ColorFactory2.java" name="ColorFactory.java" stamp="1447140909464" updateReferences="true"/>
-</session>

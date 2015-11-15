@@ -1,8 +1,0 @@
-package com.lu;
-
-public class ShapeFactory {
-public Shape getShape() {
-	
-}
-	
-}

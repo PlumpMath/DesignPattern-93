@@ -1,4 +1,0 @@
-INDEX VERSION 1.127+F:\design pattern\Factory Pattern\.metadata\.plugins\org.eclipse.jdt.core
-3188665512.index
-3680324189.index
-3008664913.index
