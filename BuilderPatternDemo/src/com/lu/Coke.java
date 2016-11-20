@@ -2,7 +2,6 @@ package com.lu;
 
 public class Coke extends ColdDrink {
 
-	@Override
 	public String name() {
 		// TODO Auto-generated method stub
 		return "Coke ";

@@ -2,7 +2,6 @@ package com.lu;
 
 public class VegBurger extends Burger {
 
-	@Override
 	public String name() {
 		return "VegBurger";
 	}

@@ -8,7 +8,6 @@ public class SellStock implements Order {
 		this.stock = stock;
 	}
 
-	@Override
 	public void excute() {
 		stock.sell();
 	}

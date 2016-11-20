@@ -6,7 +6,6 @@ public class NameRepository implements Container {
 	private class NameIterator implements Iterator {
 		int index;
 
-		@Override
 		public boolean hasNext() {
 			if (index < names.length) {
 				return true;
@@ -14,7 +13,6 @@ public class NameRepository implements Container {
 			return false;
 		}
 
-		@Override
 		public String next() {
 			if (this.hasNext()) {
 				return names[index++];
@@ -25,7 +23,6 @@ public class NameRepository implements Container {
 
 	}
 
-	@Override
 	public Iterator getIterator() {
 		return new NameIterator();
 	}

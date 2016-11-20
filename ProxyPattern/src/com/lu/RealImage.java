@@ -8,7 +8,6 @@ public class RealImage implements Image {
 		this.fileName = fileName;
 	}
 
-	@Override
 	public void display() {
 		System.out.println("displaying" + fileName);
 	}

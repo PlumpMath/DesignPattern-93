@@ -10,7 +10,6 @@ public class Circle implements Shape {
 		this.color = color;
 	}
 
-	@Override
 	public void draw() {
 		System.out.println("Circle [color=" + color + ", x=" + x + ", y=" + y + ", radius=" + radius + "]");
 	}

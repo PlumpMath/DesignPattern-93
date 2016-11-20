@@ -2,7 +2,6 @@ package com.lu;
 
 public class Pepsi extends ColdDrink {
 
-	@Override
 	public String name() {
 		return "Pepsi ";
 	}

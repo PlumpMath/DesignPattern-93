@@ -10,7 +10,6 @@ public class AndExpression implements Expression {
 		this.expression2 = expression2;
 	}
 
-	@Override
 	public boolean interpret(String context) {
 		return expression1.interpret(context) && expression2.interpret(context);
 	}

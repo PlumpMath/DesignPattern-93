@@ -3,7 +3,6 @@ package com.lu;
 public class AudioPlayer implements MediaPlayer {
 	private MediaAdapter adapter;
 
-	@Override
 	public void play(String audioType, String fileName) {
 		// 播放 mp3 音乐文件的内置支持
 		if (audioType.equalsIgnoreCase("mp3")) {
